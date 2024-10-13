@@ -20,7 +20,5 @@ public class MapMain3
         studentMap.putIfAbsent("studentB", 90);
         System.out.println(studentMap);
 
-
-
     }
 }
