@@ -14,7 +14,16 @@ public class WordFrequencyTest1
         String[] fruits = text.split(" ");
 
         for (String fruit : fruits)
+        {
             map.put(fruit, map.getOrDefault(fruit, 0) + 1);
+            /*Integer count = map.get(fruit);
+            if (count == null)
+            {
+                count = 0;
+            }
+            map.put(fruit, ++count);*/
+        }
+
 
         System.out.println(map);
 
